@@ -8,7 +8,7 @@ scanf("%d",&n);
 
 for(i=2;i<=n;i++){
     temp=0;
-    for(j=2;j*j<i;j++){ 
+    for(j=2;j*j<=i;j++){ 
 
         if(i%j==0){
             temp=1;

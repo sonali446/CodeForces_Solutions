@@ -1,39 +1,35 @@
 #include<stdio.h>
-int add(int a,int b){
-  return a+b;
-}
+
+
+/*int multiply(const int&,const int&);
+
+
 
 int main(){
 
-/*nt (*ptr1)(int,int);
-ptr1 = &add;
-int c = (*ptr1)(5,10);
-printf("%d",c);*/
+int a=10,b=20;
 
-int n=1;
 
-char s[]='sonali';
-
-s=s+(n)+'0';
-
-printf("%s",s);
-
+int res=multiply(a,b);
+printf("%d",res);
 return 0;
 }
 
-/*#include<stdio.h>
-void func(int a)
-{
-    printf("Value of a is %d\n", a);
-}
-  
-int main()
-{
+int multiply(const int &a,const int &b){
     
-    void (*fun_ptr)(int) ;
-  fun_ptr= &func;
-    
-  (*fun_ptr)(2);
-  
-    return 0;
+   return a*b;
 }*/
+
+int main(){
+
+   int arr[5];
+
+   for(int i=0;i<5;i++){
+      arr[i]+=1;
+   }
+
+   for(int i=0;i<5;i++){
+      printf("%d\t",arr[i]);
+   }
+
+}
